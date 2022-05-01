@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ivan Zhevachevskyi Portfolio">
+    <meta name="author" content="Ivan Zhevachevskyi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="./images/logo.PNG">
+    <title>Personal Portfolio Website Zhevachevskyi</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+</head>
+
+<body>
+    <!-- link to upload site -->
+
+
+    <!-- scroll button hidden until scrollY > 500 -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- navbar start -->
+    <nav class="navbar">
+        <div class="max-width max-nav">
+            <div><a href="#" class="logo">Ivan<span class="nav-span"> Zhevachevskyi</span></a></div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="menu">
+                <li class="nav_link"><a href="#home" class="menu-btn" aria-label="go to home section.">Home</a></li>
+                <li class="nav_link"><a href="#about" class="menu-btn" aria-label="go to about section.">About</a></li>
+                <li class="nav_link"><a href="#projects" class="menu-btn"
+                        aria-label="go to project section.">Projects</a></li>
+                <li class="nav_link"><a href="#contact" class="menu-btn" aria-label="go to contact section.">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home scene" id="home"> 
+        <div class="max-width max-home parallax ">
+            <div class="home-content">
+                <h3 class="text-1">👋 <span>Hello</span>, my name is</h3>
+                <h1 class="text-2">Ivan Zhevachevskyi</h1>
+                <h2 class="text-3">And I'm a <span class="typing"></span></h2>
+                <div class="socials">
+                    <a href="#" target="_blank" class="home_link link-2"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ivan-zhevachevskyi-77a825217/" target="_blank" class="home_link link-1"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank" class="home_link link-2"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/baronbak" target="_blank" class="home_link link-1"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width max-about">
+            <h2 class="title">About me</h2>
+
+            <div class="about-content">
+                <div class="col about-left">
+                    <div class="slideshow-container">
+                        <!-- slideshow -->
+                        <div class="mySlides fade">
+                            <img src="./images/profile1.png">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./images/profile2.png">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./images/profile3.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="./images/profile4.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col about-right">
+                    <h3 class="subtext-1">I'm Ivan and I'm a <span class="typing-2"></span></h3>
+                    <p>A front-end web developer who is passionate and curious about problem solving. I have four years
+                        of
+                        experience in customer service along with over 1000+ hours of experience with <span
+                            class="highlight">HTML</span>, <span class="highlight">CSS</span>, and my favorite, <span
+                            class="highlight">JavaScript</span>!
+                    </p>
+
+                    <p>Some passions of mine include: cycling🚲, learning📔, traveling🌉, swimming🏊, creating🔨, filming🎥, and online gaming🎮
+                    </p>
+
+                    <div>
+                        <h3 class="subtext-1">My Recent <span class="typing-3"></span></h3>
+                        <ul class="about_list">
+                            <li class="about_item">Participant of | <span><a class="about-link" href="#about"
+                                target="_blank">ROBOTICA 2016</a></span></li>
+                            <li class="about_item">Front End Web Development | <span><a class="about-link" href="https://arixess.com/"
+                                target="_blank">ARIXESS</a></span></li>
+                            <li class="about_item">IT Support | <span><a class="about-link" href="http://profin-mas.com/"
+                                        target="_blank">ProFin</a></span></li>
+                            <li class="about_item">Responsive Web Development | <span><a class="about-link"
+                                href="Development">Forabilis</a></span></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- project section start -->
+    <section class="project" id="projects">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="project-container dFlex">
+
+                <div class="project-content right-proj">
+                    <p class="type-right">Site</p>
+                    <div class="col img-container">
+                        <img src="./images/project1.png" alt="">
+                    </div>
+                    <div class="proj-text col">
+                        <h2 class="proj-head">Forabilis</h2>
+                        <p class="proj-sub">My first completed site, showed my knowledge in HTML, CSS and some JS scripts. I decided to do that for free, like my first site.</p>
+                        <ul class="tools">
+                            <li><i class="devicon-figma-plain"></i></li>
+                            <li><i class="devicon-html5-plain"></i></li>
+                            <li><i class="devicon-css3-plain"></i></li>
+                            <li><i class="devicon-python-plain"></i></li>
+                            <li><i class="devicon-nodejs-plain"></i></li>
+                            <li><i class="devicon-git-plain"></i></li>
+                        </ul>
+                        <div class="demo demo-right">
+                            <a href="https://github.com/baronbak" target="_blank" class="proj_link-1">Code</a>
+                            <a href="https://www.adama.com/en" target="_blank" class="proj_link-2">Uploaded</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="project-content left-proj">
+                    <p class="type-left">Webapp</p>
+                    <div class="col img-container">
+                        <img src="./images/uni-proj1.png" alt="">
+                    </div>
+                    <div class="proj-text col">
+                        <h2 class="proj-head">ITW practice</h2>
+                        <p class="proj-sub">This is a small site that we gradually made in the classes on the subject of ITW, from my university. The result is this website.</p>
+                        <ul class="tools">
+                            <li><i class="devicon-html5-plain"></i></li>
+                            <li><i class="devicon-css3-plain"></i></li>
+                        </ul>
+                        <div class="demo demo-right">
+                            <a href="https://github.com/baronbak" target="_blank" class="proj_link-1">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-content right-proj">
+                    <p class="type-right">Team-Based Site</p>
+                    <div class="col img-container">
+                        <img src="./images/project2.png" alt="">
+                    </div>
+                    <div class="proj-text col">
+                        <h2 class="proj-head">ADAMA</h2>
+                        <p class="proj-sub">This is a project of team work on a store website. Here we worked together and each was responsible for his part. My task was to lay out the shell of the site, where the python and so on were already connected in the end.</p>
+                        <ul class="tools">
+                            <li><i class="devicon-figma-plain"></i></li>
+                            <li><i class="devicon-html5-plain"></i></li>
+                            <li><i class="devicon-css3-plain"></i></li>                            
+                            <li><i class="devicon-mysql-plain"></i></li>
+                            <li><i class="devicon-react-original"></i></li>
+                            <li><i class="devicon-mongodb-plain"></i></li>
+                            <li><i class="devicon-express-original"></i></li>
+                            <li><i class="devicon-nodejs-plain"></i></li>
+                            <li><i class="devicon-git-plain"></i></li>
+                        </ul>
+                        <div class="demo demo-right">
+                            <a href="https://github.com/jmcroft7/dadjoke-bot" target="_blank" class="proj_link-1">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-content left-proj">
+                    <p class="type-left">uini-work Site2</p>
+                    <div class="col img-container">
+                        <img src="./images/uni-proj2.png" alt="">
+                    </div>
+                    <div class="proj-text col">
+                        <h2 class="proj-head">randomAlgo</h2>
+                        <p class="proj-sub">The first assigned project in a university course was to recreate a design based on a pre-written HTML layout.</p>
+                        <ul class="tools">
+                            <li><i class="devicon-css3-plain"></i></li>
+                        </ul>
+                        <div class="demo demo-right">
+                            <a href="https://github.com/baronbak" target="_blank" class="proj_link-2">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-content right-proj">
+                    <p class="type-right"></p>
+                    <div class="col img-container">
+                        <img class="github-edit" src="./images/github_photo.PNG" alt="">
+                    </div>
+                    <div class="proj-text col">
+                        <h2 class="proj-head">My Github</h2>
+                        <p class="proj-sub">These are only a few of my projects. I have many more on my github! you can view the public ones here!<br>
+                            <small>*All work will be uploaded soon</small></p>
+                        <ul class="tools">
+                            <li><i class="devicon-html5-plain"></i></li>
+                            <li><i class="devicon-css3-plain"></i></li>
+                            <li><i class="devicon-javascript-plain"></i></li>
+                            <li><i class="devicon-python-plain"></i></li>
+                            <li><i class="devicon-java-plain"></i></li>
+                            <li><i class="devicon-bootstrap-plain"></i></li>
+                            <li><i class="devicon-react-original"></i></li>
+                        </ul>
+                        <div class="demo demo-right">
+                            <a href="https://github.com/baronbak" target="_blank" class="proj_link-1">View Github</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+
+        <div class="max-width">
+
+            <h2 class="title">Contact me</h2>
+
+            <div class="contact-content">
+
+                <div class="col contact-left">
+                    <div class="text-contact">Get in Touch</div>
+                    <div class="icons">
+
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Ivan Zhevachevskyi</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Location</div>
+                                <div class="sub-title">Brno, Czech Republic</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">zhivanch@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col contact-right">
+
+                    <div class="text-contact">Message me</div>
+                    <form action="mailto:zhivanch@gmail.com@gmail.com" method=”POST” enctype="text/plain">
+
+                        <div class="fields">
+
+                            <div class="field name">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Name" required>
+                            </div>
+
+                            <div class="field email">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+
+                        <div class="field subject">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+
+                        <div class="button-area">
+                            <button type="submit" class="btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
